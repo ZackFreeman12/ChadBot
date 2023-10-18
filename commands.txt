@@ -1,0 +1,31 @@
+My bot will return job board data from the adzuna database, it is also a chatbot using openai's api and GPT-3.5.
+It also has some other misc commands using spotify's api and others
+
+COMMANDS
+
+/generate-password: Generates a random password
+options: Length(required): Length of the password,
+exclude_numbers(required): boolean argument to have numbers in password or not,
+exclude_special-chars(required):boolean argument to have special characters in password or not
+
+/job-categories: Returns a list of catagories used in the job-postings command
+options: country-code(required): defines which country to search from
+
+/job-postings: Returns a list of links to job postings 
+options: country-code(required): defines which country to search from,
+page(required): set the page of the database to search from,
+results-limit(required): set the limit of how many results to return. Max:5,
+category(required): choose a category from the list returned from job-categories command
+
+/top-employers: Returns a list of top employers based on given keywords
+options: country-code(required): defines which country to search from,
+search(required): define keywords to search with
+
+/sentiment: Analyze text to predict the sentiment of it
+options: text(required): provide the text to be analyzed
+
+/song-recommendation: Return a link to a random song on spotify based on genre
+options: genre(required), sub-genre, sub-sub-genre
+
+GPT-3.5 Prompt
+preface your prompt with "chadbot," and type anything you wish to prompt
