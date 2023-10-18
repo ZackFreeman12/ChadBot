@@ -1,0 +1,17 @@
+{
+  "name": "discordbotexamples",
+  "version": "1.0.0",
+  "main": "commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "discord.js": "^14.13.0",
+    "openai": "^4.11.1",
+    "yelp-api": "^1.0.3"
+  },
+  "description": ""
+}
